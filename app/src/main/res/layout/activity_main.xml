@@ -24,15 +24,17 @@
         android:inputType="number" />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"android:layout_margin="11">
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp">
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnAdd"
             android:layout_weight="1"
-android:layout_marginLeft="11dp"
+            android:layout_marginLeft="11dp"
             android:hint="+"
-            /> <Button
+            />
+        <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/btnSub"
